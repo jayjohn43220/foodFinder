@@ -1,3 +1,10 @@
+//
+//  recipeViewController.swift
+//  foodFinder
+//
+//  Created by Jayden John on 4/20/24.
+//
+
 import UIKit
 import SafariServices
 struct APIResponse: Codable {

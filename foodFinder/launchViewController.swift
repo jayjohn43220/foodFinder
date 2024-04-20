@@ -37,9 +37,7 @@ class launchViewController: UIViewController {
     }
 
 
-//    override func performSegue(withIdentifier identifier: String, sender: Any?) {
-//        performSegue(withIdentifier: "toHomeSegue", sender: nil)
-//    }
+
 
     /*
     // MARK: - Navigation

@@ -126,8 +126,6 @@ class categoryViewController: UIViewController {
                         return
                     }
                     
-                    // Debug: Print the size of the image data received
-                    print("Image data size: \(imageData.count) bytes")
                     
                     // Create UIImage from imageData on the main thread
                     DispatchQueue.main.async {
@@ -137,8 +135,7 @@ class categoryViewController: UIViewController {
                             print("Failed to create UIImage from data")
                         }
                         
-                        // Debug: Print image view frame after setting the image
-                        print("Thumbnail image view frame: \(thumbnailImageView.frame)")
+
                         
                         // Add thumbnailImageView to mealContainerView and set constraints
                         mealContainerView.addSubview(thumbnailImageView)
