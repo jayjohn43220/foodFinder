@@ -13,6 +13,18 @@
 		265D14682BD4040D00E14DF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 265D14672BD4040D00E14DF0 /* Base */; };
 		265D146A2BD4041000E14DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265D14692BD4041000E14DF0 /* Assets.xcassets */; };
 		265D146D2BD4041000E14DF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 265D146C2BD4041000E14DF0 /* Base */; };
+		265D14772BD4071E00E14DF0 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 265D14762BD4071E00E14DF0 /* food.png */; };
+		265D147B2BD4082F00E14DF0 /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D147A2BD4082F00E14DF0 /* launchViewController.swift */; };
+		268586B32BD42A9D0044B60F /* categoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268586B22BD42A9D0044B60F /* categoryViewController.swift */; };
+		268586B52BD449B40044B60F /* recipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268586B42BD449B40044B60F /* recipeViewController.swift */; };
+		268586B72BD45CAB0044B60F /* youtubelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 268586B62BD45CAB0044B60F /* youtubelogo.png */; };
+		268586BF2BD464370044B60F /* seafood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268586B82BD464360044B60F /* seafood.jpg */; };
+		268586C02BD464370044B60F /* beef.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268586B92BD464360044B60F /* beef.jpeg */; };
+		268586C12BD464370044B60F /* pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268586BA2BD464360044B60F /* pork.jpg */; };
+		268586C22BD464370044B60F /* lamb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268586BB2BD464360044B60F /* lamb.jpg */; };
+		268586C32BD464370044B60F /* vegetarian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268586BC2BD464360044B60F /* vegetarian.jpg */; };
+		268586C42BD464370044B60F /* vegan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268586BD2BD464360044B60F /* vegan.jpeg */; };
+		268586C52BD464370044B60F /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268586BE2BD464360044B60F /* chicken.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		265D14692BD4041000E14DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		265D146C2BD4041000E14DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		265D146E2BD4041000E14DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265D14762BD4071E00E14DF0 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = SOURCE_ROOT; };
+		265D147A2BD4082F00E14DF0 /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
+		268586B22BD42A9D0044B60F /* categoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryViewController.swift; sourceTree = "<group>"; };
+		268586B42BD449B40044B60F /* recipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeViewController.swift; sourceTree = "<group>"; };
+		268586B62BD45CAB0044B60F /* youtubelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtubelogo.png; sourceTree = SOURCE_ROOT; };
+		268586B82BD464360044B60F /* seafood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seafood.jpg; sourceTree = SOURCE_ROOT; };
+		268586B92BD464360044B60F /* beef.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpeg; sourceTree = SOURCE_ROOT; };
+		268586BA2BD464360044B60F /* pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pork.jpg; sourceTree = SOURCE_ROOT; };
+		268586BB2BD464360044B60F /* lamb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamb.jpg; sourceTree = SOURCE_ROOT; };
+		268586BC2BD464360044B60F /* vegetarian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetarian.jpg; sourceTree = SOURCE_ROOT; };
+		268586BD2BD464360044B60F /* vegan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegan.jpeg; sourceTree = SOURCE_ROOT; };
+		268586BE2BD464360044B60F /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +84,21 @@
 				265D14622BD4040D00E14DF0 /* SceneDelegate.swift */,
 				265D14642BD4040D00E14DF0 /* ViewController.swift */,
 				265D14662BD4040D00E14DF0 /* Main.storyboard */,
+				268586B42BD449B40044B60F /* recipeViewController.swift */,
+				268586B22BD42A9D0044B60F /* categoryViewController.swift */,
 				265D14692BD4041000E14DF0 /* Assets.xcassets */,
 				265D146B2BD4041000E14DF0 /* LaunchScreen.storyboard */,
+				265D147A2BD4082F00E14DF0 /* launchViewController.swift */,
 				265D146E2BD4041000E14DF0 /* Info.plist */,
+				265D14762BD4071E00E14DF0 /* food.png */,
+				268586B62BD45CAB0044B60F /* youtubelogo.png */,
+				268586B92BD464360044B60F /* beef.jpeg */,
+				268586BE2BD464360044B60F /* chicken.jpg */,
+				268586BB2BD464360044B60F /* lamb.jpg */,
+				268586BA2BD464360044B60F /* pork.jpg */,
+				268586B82BD464360044B60F /* seafood.jpg */,
+				268586BD2BD464360044B60F /* vegan.jpeg */,
+				268586BC2BD464360044B60F /* vegetarian.jpg */,
 			);
 			path = foodFinder;
 			sourceTree = "<group>";
@@ -126,8 +162,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				265D146A2BD4041000E14DF0 /* Assets.xcassets in Resources */,
+				268586BF2BD464370044B60F /* seafood.jpg in Resources */,
+				268586B72BD45CAB0044B60F /* youtubelogo.png in Resources */,
+				268586C12BD464370044B60F /* pork.jpg in Resources */,
+				268586C22BD464370044B60F /* lamb.jpg in Resources */,
 				265D146D2BD4041000E14DF0 /* Base in Resources */,
 				265D14682BD4040D00E14DF0 /* Base in Resources */,
+				268586C52BD464370044B60F /* chicken.jpg in Resources */,
+				265D14772BD4071E00E14DF0 /* food.png in Resources */,
+				268586C42BD464370044B60F /* vegan.jpeg in Resources */,
+				268586C02BD464370044B60F /* beef.jpeg in Resources */,
+				268586C32BD464370044B60F /* vegetarian.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268586B52BD449B40044B60F /* recipeViewController.swift in Sources */,
 				265D14652BD4040D00E14DF0 /* ViewController.swift in Sources */,
 				265D14612BD4040D00E14DF0 /* AppDelegate.swift in Sources */,
+				268586B32BD42A9D0044B60F /* categoryViewController.swift in Sources */,
 				265D14632BD4040D00E14DF0 /* SceneDelegate.swift in Sources */,
+				265D147B2BD4082F00E14DF0 /* launchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +348,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +377,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
